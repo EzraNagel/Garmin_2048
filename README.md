@@ -9,9 +9,9 @@ Currently created for use with Venu 4 devices and Garmin 3.1 api, though in futu
 | File | Purpose |
 | --- | --- |
 | `source/Game2048.mc` | Game logic: board, sliding, merging, scoring, save/load |
-| `source/First_AppView.mc` | Draws the board, tiles, and score |
-| `source/First_AppDelegate.mc` | Handles taps and restarts after game over |
-| `source/First_AppApp.mc` | App entry point, loads and saves game state |
+| `source/Garmin_2048App.mc` | Draws the board, tiles, and score |
+| `source/Garmin_2048Delegate.mc` | Handles taps and restarts after game over |
+| `source/Garmin_2048View.mc` | App entry point, loads and saves game state |
 | `manifest.xml` | App type, target devices, API level |
 
 ## Requirements
