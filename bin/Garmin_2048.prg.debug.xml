@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\code\Garmin_2048\Garmin_2048\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="2" lineNum="7" parent="globals/Garmin_2048Delegate" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="4" lineNum="5" parent="globals/Garmin_2048App" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="5" lineNum="5" parent="globals/Garmin_2048MenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="6" lineNum="5" parent="globals/Garmin_2048View" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="133" parent="globals/Game2048" pc="268435549" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="134" parent="globals/Game2048" pc="268435552" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="135" parent="globals/Game2048" pc="268435563" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="136" parent="globals/Game2048" pc="268435574" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="136" parent="globals/Game2048" pc="268435590" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="137" parent="globals/Game2048" pc="268435595" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="137" parent="globals/Game2048" pc="268435632" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="138" parent="globals/Game2048" pc="268435637" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="138" parent="globals/Game2048" pc="268435674" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="7" lineNum="141" parent="globals/Game2048" pc="268435699" symbol="canMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="93" parent="globals/Game2048" pc="268435701" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="94" parent="globals/Game2048" pc="268435704" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="94" parent="globals/Game2048" pc="268435712" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="95" parent="globals/Game2048" pc="268435717" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="96" parent="globals/Game2048" pc="268435720" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="97" parent="globals/Game2048" pc="268435731" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="98" parent="globals/Game2048" pc="268435735" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="99" parent="globals/Game2048" pc="268435746" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="101" parent="globals/Game2048" pc="268435801" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="102" parent="globals/Game2048" pc="268435813" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="103" parent="globals/Game2048" pc="268435824" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="104" parent="globals/Game2048" pc="268435840" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="105" parent="globals/Game2048" pc="268435856" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="106" parent="globals/Game2048" pc="268435876" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="107" parent="globals/Game2048" pc="268435892" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="111" parent="globals/Game2048" pc="268435918" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="112" parent="globals/Game2048" pc="268435923" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="113" parent="globals/Game2048" pc="268435930" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="114" parent="globals/Game2048" pc="268435944" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="114" parent="globals/Game2048" pc="268435952" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="115" parent="globals/Game2048" pc="268435963" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="115" parent="globals/Game2048" pc="268435977" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="116" parent="globals/Game2048" pc="268435992" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="8" lineNum="118" parent="globals/Game2048" pc="268436002" symbol="move"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="41" parent="globals/Game2048" pc="268436005" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="42" parent="globals/Game2048" pc="268436007" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="43" parent="globals/Game2048" pc="268436050" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="44" parent="globals/Game2048" pc="268436058" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="45" parent="globals/Game2048" pc="268436066" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="46" parent="globals/Game2048" pc="268436074" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="9" lineNum="47" parent="globals/Game2048" pc="268436081" symbol="restart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="121" parent="globals/Game2048" pc="268436089" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="122" parent="globals/Game2048" pc="268436092" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="123" parent="globals/Game2048" pc="268436096" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="124" parent="globals/Game2048" pc="268436107" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="125" parent="globals/Game2048" pc="268436118" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="125" parent="globals/Game2048" pc="268436134" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="128" parent="globals/Game2048" pc="268436181" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="128" parent="globals/Game2048" pc="268436193" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="129" parent="globals/Game2048" pc="268436197" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="10" lineNum="130" parent="globals/Game2048" pc="268436220" symbol="addTile"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="18" parent="globals/Game2048" pc="268436262" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="19" parent="globals/Game2048" pc="268436264" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="20" parent="globals/Game2048" pc="268436287" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="21" parent="globals/Game2048" pc="268436310" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="22" parent="globals/Game2048" pc="268436333" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="11" lineNum="23" parent="globals/Game2048" pc="268436356" symbol="save"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="26" parent="globals/Game2048" pc="268436380" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="27" parent="globals/Game2048" pc="268436383" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="28" parent="globals/Game2048" pc="268436402" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="29" parent="globals/Game2048" pc="268436408" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="30" parent="globals/Game2048" pc="268436417" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="31" parent="globals/Game2048" pc="268436441" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="32" parent="globals/Game2048" pc="268436465" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="33" parent="globals/Game2048" pc="268436484" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="35" parent="globals/Game2048" pc="268436498" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="37" parent="globals/Game2048" pc="268436505" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="38" parent="globals/Game2048" pc="268436524" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="12" lineNum="38" parent="globals/Game2048" pc="268436530" symbol="load"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="58" parent="globals/Game2048" pc="268436543" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="59" parent="globals/Game2048" pc="268436545" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="59" parent="globals/Game2048" pc="268436560" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="60" parent="globals/Game2048" pc="268436566" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="60" parent="globals/Game2048" pc="268436574" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="13" lineNum="61" parent="globals/Game2048" pc="268436580" symbol="rowFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="71" parent="globals/Game2048" pc="268436586" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="72" parent="globals/Game2048" pc="268436589" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="73" parent="globals/Game2048" pc="268436593" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="74" parent="globals/Game2048" pc="268436604" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="74" parent="globals/Game2048" pc="268436614" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="76" parent="globals/Game2048" pc="268436642" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="77" parent="globals/Game2048" pc="268436646" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="78" parent="globals/Game2048" pc="268436649" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="79" parent="globals/Game2048" pc="268436662" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="80" parent="globals/Game2048" pc="268436695" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="81" parent="globals/Game2048" pc="268436705" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="82" parent="globals/Game2048" pc="268436717" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="83" parent="globals/Game2048" pc="268436732" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="85" parent="globals/Game2048" pc="268436742" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="86" parent="globals/Game2048" pc="268436757" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="89" parent="globals/Game2048" pc="268436767" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="89" parent="globals/Game2048" pc="268436780" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="14" lineNum="90" parent="globals/Game2048" pc="268436794" symbol="slide"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="64" parent="globals/Game2048" pc="268436797" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="65" parent="globals/Game2048" pc="268436799" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="65" parent="globals/Game2048" pc="268436806" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="66" parent="globals/Game2048" pc="268436812" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="66" parent="globals/Game2048" pc="268436820" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="15" lineNum="67" parent="globals/Game2048" pc="268436829" symbol="colFor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="16" lineNum="50" parent="globals/Game2048" pc="268436832" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="16" lineNum="51" parent="globals/Game2048" pc="268436834" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="16" lineNum="52" parent="globals/Game2048" pc="268436857" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="16" lineNum="53" parent="globals/Game2048" pc="268436900" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Game2048.mc" id="16" lineNum="54" parent="globals/Game2048" pc="268436907" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="17" lineNum="13" parent="globals/Garmin_2048Delegate" pc="268436915" symbol="doMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="17" lineNum="14" parent="globals/Garmin_2048Delegate" pc="268436918" symbol="doMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="17" lineNum="15" parent="globals/Garmin_2048Delegate" pc="268436935" symbol="doMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="17" lineNum="16" parent="globals/Garmin_2048Delegate" pc="268436947" symbol="doMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="17" lineNum="17" parent="globals/Garmin_2048Delegate" pc="268436955" symbol="doMove"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="18" lineNum="20" parent="globals/Garmin_2048Delegate" pc="268436967" symbol="onSwipe"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="18" lineNum="21" parent="globals/Garmin_2048Delegate" pc="268436969" symbol="onSwipe"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="19" lineNum="9" parent="globals/Garmin_2048Delegate" pc="268436971" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="19" lineNum="10" parent="globals/Garmin_2048Delegate" pc="268436973" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="24" parent="globals/Garmin_2048Delegate" pc="268436986" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="25" parent="globals/Garmin_2048Delegate" pc="268436989" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="26" parent="globals/Garmin_2048Delegate" pc="268437006" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="27" parent="globals/Garmin_2048Delegate" pc="268437015" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="28" parent="globals/Garmin_2048Delegate" pc="268437025" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="29" parent="globals/Garmin_2048Delegate" pc="268437034" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="30" parent="globals/Garmin_2048Delegate" pc="268437042" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="31" parent="globals/Garmin_2048Delegate" pc="268437053" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="33" parent="globals/Garmin_2048Delegate" pc="268437058" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="34" parent="globals/Garmin_2048Delegate" pc="268437067" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="35" parent="globals/Garmin_2048Delegate" pc="268437079" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="36" parent="globals/Garmin_2048Delegate" pc="268437087" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="37" parent="globals/Garmin_2048Delegate" pc="268437095" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="38" parent="globals/Garmin_2048Delegate" pc="268437105" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="39" parent="globals/Garmin_2048Delegate" pc="268437115" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="40" parent="globals/Garmin_2048Delegate" pc="268437125" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="41" parent="globals/Garmin_2048Delegate" pc="268437135" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="43" parent="globals/Garmin_2048Delegate" pc="268437183" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="44" parent="globals/Garmin_2048Delegate" pc="268437191" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="45" parent="globals/Garmin_2048Delegate" pc="268437199" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="47" parent="globals/Garmin_2048Delegate" pc="268437213" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="49" parent="globals/Garmin_2048Delegate" pc="268437218" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="50" parent="globals/Garmin_2048Delegate" pc="268437227" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="51" parent="globals/Garmin_2048Delegate" pc="268437239" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="52" parent="globals/Garmin_2048Delegate" pc="268437255" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="54" parent="globals/Garmin_2048Delegate" pc="268437272" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="55" parent="globals/Garmin_2048Delegate" pc="268437290" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="57" parent="globals/Garmin_2048Delegate" pc="268437315" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048Delegate.mc" id="20" lineNum="59" parent="globals/Garmin_2048Delegate" pc="268437338" symbol="onTap"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="21" lineNum="16" parent="globals/Garmin_2048App" pc="268437340" symbol="onStart"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="22" lineNum="25" parent="globals/Garmin_2048App" pc="268437343" symbol="getInitialView"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="22" lineNum="26" parent="globals/Garmin_2048App" pc="268437345" symbol="getInitialView"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="23" lineNum="8" parent="globals/Garmin_2048App" pc="268437392" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="23" lineNum="9" parent="globals/Garmin_2048App" pc="268437394" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="23" lineNum="10" parent="globals/Garmin_2048App" pc="268437406" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="23" lineNum="11" parent="globals/Garmin_2048App" pc="268437431" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="24" lineNum="20" parent="globals/Garmin_2048App" pc="268437444" symbol="onStop"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048App.mc" id="24" lineNum="21" parent="globals/Garmin_2048App" pc="268437446" symbol="onStop"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="25" lineNum="11" parent="globals/Garmin_2048MenuDelegate" pc="268437459" symbol="onMenuItem"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="25" lineNum="12" parent="globals/Garmin_2048MenuDelegate" pc="268437461" symbol="onMenuItem"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="25" lineNum="13" parent="globals/Garmin_2048MenuDelegate" pc="268437472" symbol="onMenuItem"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="25" lineNum="14" parent="globals/Garmin_2048MenuDelegate" pc="268437493" symbol="onMenuItem"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="25" lineNum="15" parent="globals/Garmin_2048MenuDelegate" pc="268437504" symbol="onMenuItem"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="26" lineNum="7" parent="globals/Garmin_2048MenuDelegate" pc="268437526" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048MenuDelegate.mc" id="26" lineNum="8" parent="globals/Garmin_2048MenuDelegate" pc="268437528" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="28" lineNum="12" parent="globals/Garmin_2048View" pc="268437541" symbol="onLayout"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="28" lineNum="13" parent="globals/Garmin_2048View" pc="268437543" symbol="onLayout"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="29" lineNum="16" parent="globals/Garmin_2048View" pc="268437577" symbol="tileColor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="29" lineNum="17" parent="globals/Garmin_2048View" pc="268437580" symbol="tileColor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="29" lineNum="22" parent="globals/Garmin_2048View" pc="268437587" symbol="tileColor"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="30" lineNum="7" parent="globals/Garmin_2048View" pc="268437614" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="30" lineNum="8" parent="globals/Garmin_2048View" pc="268437616" symbol="initialize"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="32" parent="globals/Garmin_2048View" pc="268437629" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="33" parent="globals/Garmin_2048View" pc="268437632" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="34" parent="globals/Garmin_2048View" pc="268437649" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="35" parent="globals/Garmin_2048View" pc="268437658" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="37" parent="globals/Garmin_2048View" pc="268437667" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="38" parent="globals/Garmin_2048View" pc="268437679" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="40" parent="globals/Garmin_2048View" pc="268437687" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="41" parent="globals/Garmin_2048View" pc="268437705" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="42" parent="globals/Garmin_2048View" pc="268437722" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="44" parent="globals/Garmin_2048View" pc="268437754" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="46" parent="globals/Garmin_2048View" pc="268437793" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="49" parent="globals/Garmin_2048View" pc="268437832" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="50" parent="globals/Garmin_2048View" pc="268437842" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="51" parent="globals/Garmin_2048View" pc="268437852" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="52" parent="globals/Garmin_2048View" pc="268437862" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="53" parent="globals/Garmin_2048View" pc="268437872" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="54" parent="globals/Garmin_2048View" pc="268437889" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="55" parent="globals/Garmin_2048View" pc="268437909" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="56" parent="globals/Garmin_2048View" pc="268437925" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="58" parent="globals/Garmin_2048View" pc="268437957" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="62" parent="globals/Garmin_2048View" pc="268437961" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="63" parent="globals/Garmin_2048View" pc="268437978" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="64" parent="globals/Garmin_2048View" pc="268437987" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="66" parent="globals/Garmin_2048View" pc="268438018" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="69" parent="globals/Garmin_2048View" pc="268438059" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="74" parent="globals/Garmin_2048View" pc="268438097" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="75" parent="globals/Garmin_2048View" pc="268438113" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="76" parent="globals/Garmin_2048View" pc="268438120" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="77" parent="globals/Garmin_2048View" pc="268438130" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="79" parent="globals/Garmin_2048View" pc="268438155" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="80" parent="globals/Garmin_2048View" pc="268438166" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="81" parent="globals/Garmin_2048View" pc="268438177" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="82" parent="globals/Garmin_2048View" pc="268438191" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="83" parent="globals/Garmin_2048View" pc="268438201" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="84" parent="globals/Garmin_2048View" pc="268438211" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="85" parent="globals/Garmin_2048View" pc="268438233" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="86" parent="globals/Garmin_2048View" pc="268438265" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="87" parent="globals/Garmin_2048View" pc="268438272" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="89" parent="globals/Garmin_2048View" pc="268438304" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="95" parent="globals/Garmin_2048View" pc="268438363" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="96" parent="globals/Garmin_2048View" pc="268438372" symbol="onUpdate"/>
+        <entry filename="C:\\code\\Garmin_2048\\Garmin_2048\\source\\Garmin_2048View.mc" id="32" lineNum="97" parent="globals/Garmin_2048View" pc="268438389" symbol="onUpdate"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="14" parent="globals/Rez/Layouts" pc="268438424" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="15" parent="globals/Rez/Layouts" pc="268438435" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="17" parent="globals/Rez/Layouts" pc="268438444" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="19" parent="globals/Rez/Layouts" pc="268438547" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="20" parent="globals/Rez/Layouts" pc="268438631" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="33" lineNum="22" parent="globals/Rez/Layouts" pc="268438662" symbol="MainLayout"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="34" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268438677" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="35" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268438689" symbol="initialize"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="35" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268438691" symbol="initialize"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="35" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268438703" symbol="initialize"/>
+        <entry filename="c:\\code\\Garmin_2048\\Garmin_2048\\bin\\gen\\006-B4643-00\\source\\Rez.mcgen" id="35" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268438748" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="8389346" symbol="text"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="32" method="true" symbol="MainLayout"/>
+        <entry id="14" method="true" symbol="canMove"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry field="true" id="22" symbol="score"/>
+        <entry field="true" id="17" symbol="highScore"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8" object="true" symbol="Garmin_2048App"/>
+        <entry field="true" id="34" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="25" method="true" symbol="doMove"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="20" method="true" symbol="restart"/>
+        <entry field="true" id="37" symbol="prompt"/>
+        <entry field="true" id="31" symbol="id_monkey"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="18" method="true" symbol="load"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="39" symbol="item_2"/>
+        <entry id="38" symbol="item_1"/>
+        <entry id="27" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="19" method="true" symbol="move"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="7" object="true" symbol="Game2048"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry id="8388882" method="true" symbol="save"/>
+        <entry id="24" method="true" symbol="slide"/>
+        <entry field="true" id="23" symbol="showResults"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="33" object="true" symbol="MainMenu"/>
+        <entry id="29" method="true" symbol="tileColor"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="9" object="true" symbol="Garmin_2048Delegate"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="28" symbol="game"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="21" method="true" symbol="rowFor"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="10" object="true" symbol="Garmin_2048MenuDelegate"/>
+        <entry field="true" id="16" symbol="gameOver"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="15" method="true" symbol="colFor"/>
+        <entry field="true" id="13" symbol="board"/>
+        <entry id="11" object="true" symbol="Garmin_2048View"/>
+        <entry id="26" module="true" symbol="Layouts"/>
+        <entry id="12" method="true" symbol="addTile"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="36" symbol="menu_label_2"/>
+        <entry field="true" id="35" symbol="menu_label_1"/>
+        <entry id="8389101" method="true" symbol="onSwipe"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435698" name="r" stackId="1" startPc="268435563"/>
+        <entry endPc="268435688" name="c" stackId="2" startPc="268435574"/>
+        <entry arg="true" endPc="268436004" name="dir" stackId="1" startPc="268435701"/>
+        <entry endPc="268436004" name="moved" stackId="2" startPc="268435704"/>
+        <entry endPc="268435917" name="i" stackId="3" startPc="268435731"/>
+        <entry endPc="268435907" name="line" stackId="4" startPc="268435731"/>
+        <entry endPc="268435800" name="j" stackId="5" startPc="268435746"/>
+        <entry endPc="268435907" name="result" stackId="6" startPc="268435731"/>
+        <entry endPc="268435907" name="j" stackId="7" startPc="268435824"/>
+        <entry endPc="268435897" name="r" stackId="8" startPc="268435824"/>
+        <entry endPc="268435897" name="c" stackId="9" startPc="268435824"/>
+        <entry endPc="268436260" name="empty" stackId="1" startPc="268436092"/>
+        <entry endPc="268436180" name="r" stackId="2" startPc="268436107"/>
+        <entry endPc="268436170" name="c" stackId="3" startPc="268436118"/>
+        <entry endPc="268436260" name="pick" stackId="4" startPc="268436092"/>
+        <entry endPc="268436541" name="b" stackId="1" startPc="268436383"/>
+        <entry endPc="268436494" name="results" stackId="2" startPc="268436408"/>
+        <entry endPc="268436541" name="hs" stackId="3" startPc="268436383"/>
+        <entry arg="true" endPc="268436585" name="dir" stackId="1" startPc="268436543"/>
+        <entry arg="true" endPc="268436585" name="i" stackId="2" startPc="268436543"/>
+        <entry arg="true" endPc="268436585" name="j" stackId="3" startPc="268436543"/>
+        <entry arg="true" endPc="268436796" name="line" stackId="1" startPc="268436586"/>
+        <entry endPc="268436796" name="tiles" stackId="2" startPc="268436589"/>
+        <entry endPc="268436641" name="n" stackId="3" startPc="268436604"/>
+        <entry endPc="268436796" name="out" stackId="4" startPc="268436589"/>
+        <entry endPc="268436796" name="k" stackId="5" startPc="268436589"/>
+        <entry endPc="268436738" name="merged" stackId="6" startPc="268436695"/>
+        <entry arg="true" endPc="268436831" name="dir" stackId="1" startPc="268436797"/>
+        <entry arg="true" endPc="268436831" name="i" stackId="2" startPc="268436797"/>
+        <entry arg="true" endPc="268436831" name="j" stackId="3" startPc="268436797"/>
+        <entry arg="true" endPc="268436966" name="dir" stackId="1" startPc="268436915"/>
+        <entry endPc="268436965" name="game" stackId="2" startPc="268436918"/>
+        <entry arg="true" endPc="268436970" name="evt" stackId="1" startPc="268436967"/>
+        <entry arg="true" endPc="268437339" name="evt" stackId="1" startPc="268436986"/>
+        <entry endPc="268437339" name="game" stackId="2" startPc="268436989"/>
+        <entry endPc="268437214" name="coords" stackId="3" startPc="268437015"/>
+        <entry endPc="268437214" name="settings" stackId="4" startPc="268437015"/>
+        <entry endPc="268437214" name="w" stackId="5" startPc="268437015"/>
+        <entry endPc="268437214" name="h" stackId="6" startPc="268437015"/>
+        <entry endPc="268437214" name="buttonWidth" stackId="7" startPc="268437015"/>
+        <entry endPc="268437214" name="buttonHeight" stackId="8" startPc="268437015"/>
+        <entry endPc="268437214" name="buttonX" stackId="9" startPc="268437015"/>
+        <entry endPc="268437214" name="buttonY" stackId="10" startPc="268437015"/>
+        <entry endPc="268437339" name="coords" stackId="11" startPc="268436989"/>
+        <entry endPc="268437339" name="settings" stackId="12" startPc="268436989"/>
+        <entry endPc="268437339" name="dx" stackId="13" startPc="268436989"/>
+        <entry endPc="268437339" name="dy" stackId="14" startPc="268436989"/>
+        <entry arg="true" endPc="268437458" name="state" stackId="1" startPc="268437444"/>
+        <entry arg="true" endPc="268437525" name="item" stackId="1" startPc="268437459"/>
+        <entry arg="true" endPc="268437576" name="dc" stackId="1" startPc="268437541"/>
+        <entry arg="true" endPc="268437613" name="v" stackId="1" startPc="268437577"/>
+        <entry endPc="268437613" name="colors" stackId="2" startPc="268437580"/>
+        <entry arg="true" endPc="268438423" name="dc" stackId="1" startPc="268437629"/>
+        <entry endPc="268438422" name="game" stackId="2" startPc="268437632"/>
+        <entry endPc="268438422" name="w" stackId="3" startPc="268437632"/>
+        <entry endPc="268438422" name="h" stackId="4" startPc="268437632"/>
+        <entry endPc="268437957" name="buttonWidth" stackId="5" startPc="268437705"/>
+        <entry endPc="268437957" name="buttonHeight" stackId="6" startPc="268437705"/>
+        <entry endPc="268437957" name="buttonX" stackId="7" startPc="268437705"/>
+        <entry endPc="268437957" name="buttonY" stackId="8" startPc="268437705"/>
+        <entry endPc="268438422" name="side" stackId="9" startPc="268437632"/>
+        <entry endPc="268438422" name="cell" stackId="10" startPc="268437632"/>
+        <entry endPc="268438422" name="left" stackId="11" startPc="268437632"/>
+        <entry endPc="268438422" name="top" stackId="12" startPc="268437632"/>
+        <entry endPc="268438362" name="r" stackId="13" startPc="268438166"/>
+        <entry endPc="268438352" name="c" stackId="14" startPc="268438177"/>
+        <entry endPc="268438342" name="v" stackId="15" startPc="268438177"/>
+        <entry endPc="268438342" name="x" stackId="16" startPc="268438177"/>
+        <entry endPc="268438342" name="y" stackId="17" startPc="268438177"/>
+        <entry arg="true" endPc="268438676" name="dc" stackId="1" startPc="268438424"/>
+        <entry endPc="268438676" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438435"/>
+        <entry endPc="268438676" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268438435"/>
+        <entry endPc="268438676" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268438435"/>
+    </localVars>
+    <deviceInfo deviceVersion="eddc2840754f6d29c6c9a3ede43befdaadd25a09" partNumber="006-B4643-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Game2048" offset="161" parentId="globals" symbolId="Game2048" type="class"/>
+        <dataEntry label="globals/Garmin_2048Delegate" offset="331" parentId="globals" symbolId="Garmin_2048Delegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="402" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Garmin_2048App" offset="464" parentId="globals" symbolId="Garmin_2048App" type="class"/>
+        <dataEntry label="globals/Garmin_2048MenuDelegate" offset="544" parentId="globals" symbolId="Garmin_2048MenuDelegate" type="class"/>
+        <dataEntry label="globals/Garmin_2048View" offset="597" parentId="globals" symbolId="Garmin_2048View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="686" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="730" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="765" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="800" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="862" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Game2048">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="Garmin_2048Delegate" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Garmin_2048App" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="Garmin_2048MenuDelegate" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="Garmin_2048View" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435700" name="canMove" parent="Game2048" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436004" name="move" parent="Game2048" startPc="268435701">
+            <param id="dir"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436088" name="restart" parent="Game2048" startPc="268436005">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436261" name="addTile" parent="Game2048" startPc="268436089">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436379" name="save" parent="Game2048" startPc="268436262">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436542" name="load" parent="Game2048" startPc="268436380">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436585" name="rowFor" parent="Game2048" startPc="268436543">
+            <param id="dir"/>
+            <param id="i"/>
+            <param id="j"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436796" name="slide" parent="Game2048" startPc="268436586">
+            <param id="line"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436831" name="colFor" parent="Game2048" startPc="268436797">
+            <param id="dir"/>
+            <param id="i"/>
+            <param id="j"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436914" name="initialize" parent="Game2048" startPc="268436832">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436966" name="doMove" parent="Garmin_2048Delegate" startPc="268436915">
+            <param id="dir"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436970" name="onSwipe" parent="Garmin_2048Delegate" startPc="268436967">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436985" name="initialize" parent="Garmin_2048Delegate" startPc="268436971">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437339" name="onTap" parent="Garmin_2048Delegate" startPc="268436986">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437342" name="onStart" parent="Garmin_2048App" startPc="268437340">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437391" name="getInitialView" parent="Garmin_2048App" startPc="268437343">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437443" name="initialize" parent="Garmin_2048App" startPc="268437392">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437458" name="onStop" parent="Garmin_2048App" startPc="268437444">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437525" name="onMenuItem" parent="Garmin_2048MenuDelegate" startPc="268437459">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437540" name="initialize" parent="Garmin_2048MenuDelegate" startPc="268437526">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="Garmin_2048View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437576" name="onLayout" parent="Garmin_2048View" startPc="268437541">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437613" name="tileColor" parent="Garmin_2048View" startPc="268437577">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437628" name="initialize" parent="Garmin_2048View" startPc="268437614">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="Garmin_2048View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438423" name="onUpdate" parent="Garmin_2048View" startPc="268437629">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438676" name="MainLayout" parent="Layouts" startPc="268438424">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438688" name="&lt;init&gt;" parent="MainMenu" startPc="268438677">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438793" name="initialize" parent="MainMenu" startPc="268438689">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

@@ -1,0 +1,876 @@
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Application,3,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 5; @symbol_classdef = [Garmin_2048View,5,6,21]; @symbol_extends<0> = [WatchUi,5,30,37]; @symbol_extends<1> = [View,5,38,42]; ]
+class Garmin_2048View extends WatchUi.View {
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_7_26_9_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 8 8 ]
+        symbol [ View %tmp.2 8 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 8 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 12; @symbol_functiondef = [onLayout,12,13,21]; @symbol_param<0> = [dc,12,22,24]; @symbol_param<0>_type<0> = [Dc,12,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_12_40_14_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 13 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 13 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 13 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 13 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 13 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 13 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_12_40_14_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 16; @symbol_functiondef = [tileColor,16,13,22]; @symbol_param<0> = [v,16,23,24]; ]
+    function tileColor(v) {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_16_26_23_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 17 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_16_26_23_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_16_26_23_4_stop" ]
+        %colors.1 = local;
+        symbol [ colors %colors.1 17 12 18 ];
+        %tmp.1 = newd 12;
+        %tmp.2 = 0;
+        %tmp.3 = 0x3C3A32;
+        %tmp.4 = dup %tmp.1;
+        %tmp.5 = aputv %tmp.4 %tmp.2 %tmp.3;
+        %tmp.6 = 2;
+        %tmp.7 = 0xEEE4DA;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        %tmp.10 = 4;
+        %tmp.11 = 0xEDE0C8;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 %tmp.10 %tmp.11;
+        %tmp.14 = 8;
+        %tmp.15 = 0xF2B179;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        %tmp.18 = 16;
+        %tmp.19 = 0xF59563;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+        %tmp.22 = 32;
+        %tmp.23 = 0xF67C5F;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        %tmp.26 = 64;
+        %tmp.27 = 0xF65E3B;
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 %tmp.26 %tmp.27;
+        %tmp.30 = 128;
+        %tmp.31 = 0xEDCF72;
+        %tmp.32 = dup %tmp.29;
+        %tmp.33 = aputv %tmp.32 %tmp.30 %tmp.31;
+        %tmp.34 = 256;
+        %tmp.35 = 0xEDCC61;
+        %tmp.36 = dup %tmp.33;
+        %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+        %tmp.38 = 512;
+        %tmp.39 = 0xEDC850;
+        %tmp.40 = dup %tmp.37;
+        %tmp.41 = aputv %tmp.40 %tmp.38 %tmp.39;
+        %tmp.42 = 1024;
+        %tmp.43 = 0xEDC53F;
+        %tmp.44 = dup %tmp.41;
+        %tmp.45 = aputv %tmp.44 %tmp.42 %tmp.43;
+        %tmp.46 = 2048;
+        %tmp.47 = 0xEDC22E;
+        %tmp.48 = dup %tmp.45;
+        %tmp.49 = aputv %tmp.48 %tmp.46 %tmp.47;
+        lputv %colors.1 %tmp.49;
+        symbol [ colors %colors.1 17 12 18 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 22 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_begin:
+        %tmp.50 = lgetv %colors.1;
+        symbol [ colors %tmp.50 22 15 21 ];
+        symbol [ hasKey %tmp.51 22 22 28 ];
+        %tmp.51 = getv function %tmp.50 :hasKey;
+        %tmp.52 = lgetv %v;
+        symbol [ v %tmp.52 22 29 30 ];
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        bf %tmp.53 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_true:
+        %tmp.54 = lgetv %colors.1;
+        symbol [ colors %tmp.54 22 34 40 ];
+        %tmp.55 = lgetv %v;
+        symbol [ v %tmp.55 22 41 42 ];
+        %tmp.56 = agetv %tmp.54 %tmp.55;
+        push %tmp.56;
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_else_false:
+        %tmp.57 = 0x3C3A32;
+        push %tmp.57;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_end:
+        %tmp.58 = phi [%tmp.53 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_begin] [%tmp.56 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_true] [%tmp.57 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_else_false] [%tmp.58 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_22_15_22_46_end];
+        ret %tmp.58;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_16_26_23_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 28; @symbol_functiondef = [onShow,28,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 32; @symbol_functiondef = [onUpdate,32,13,21]; @symbol_param<0> = [dc,32,22,24]; ]
+    function onUpdate(dc) {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 33 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %game.1 = local;
+        symbol [ game %game.1 33 12 16 ];
+        symbol [ Application %tmp.1 33 19 30 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 33 31 37 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ game %tmp.4 33 40 44 ];
+        %tmp.4 = getv %tmp.3 :game;
+        lputv %game.1 %tmp.4;
+        symbol [ game %game.1 33 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 34 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %w.2 = local;
+        symbol [ w %w.2 34 12 13 ];
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 34 16 18 ];
+        symbol [ getWidth %tmp.6 34 19 27 ];
+        %tmp.6 = getv function %tmp.5 :getWidth;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %w.2 %tmp.7;
+        symbol [ w %w.2 34 12 13 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 35 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %h.3 = local;
+        symbol [ h %h.3 35 12 13 ];
+        %tmp.8 = lgetv %dc;
+        symbol [ dc %tmp.8 35 16 18 ];
+        symbol [ getHeight %tmp.9 35 19 28 ];
+        %tmp.9 = getv function %tmp.8 :getHeight;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %h.3 %tmp.10;
+        symbol [ h %h.3 35 12 13 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 37 8 ]
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 37 8 10 ];
+        symbol [ setColor %tmp.12 37 11 19 ];
+        %tmp.12 = getv function %tmp.11 :setColor;
+        symbol [ Graphics %tmp.13 37 20 28 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.14 37 29 40 ];
+        %tmp.14 = getv %tmp.13 :COLOR_BLACK;
+        symbol [ Graphics %tmp.15 37 42 50 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.16 37 51 62 ];
+        %tmp.16 = getv %tmp.15 :COLOR_BLACK;
+        invoke %tmp.11 %tmp.12(%tmp.14, %tmp.16);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 38 8 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 38 8 10 ];
+        symbol [ clear %tmp.18 38 11 16 ];
+        %tmp.18 = getv function %tmp.17 :clear;
+        invoke %tmp.17 %tmp.18();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 40 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_stmt:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_12_40_34_begin:
+        %tmp.19 = lgetv %game.1;
+        symbol [ game %tmp.19 40 12 16 ];
+        symbol [ gameOver %tmp.20 40 17 25 ];
+        %tmp.20 = getv %tmp.19 :gameOver;
+        bf %tmp.20 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_29_40_34_true:
+        %tmp.21 = lgetv %game.1;
+        symbol [ game %tmp.21 40 29 33 ];
+        symbol [ showResults %tmp.22 40 34 45 ];
+        %tmp.22 = getv %tmp.21 :showResults;
+        push %tmp.22;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_29_40_34_end:
+        %tmp.23 = phi [%tmp.20 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_12_40_34_begin] [%tmp.22 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_29_40_34_true] [%tmp.23 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_29_40_34_end];
+        bf %tmp.23 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 41 12 ]
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 41 12 14 ];
+        symbol [ setColor %tmp.25 41 15 23 ];
+        %tmp.25 = getv function %tmp.24 :setColor;
+        symbol [ Graphics %tmp.26 41 24 32 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.27 41 33 44 ];
+        %tmp.27 = getv %tmp.26 :COLOR_WHITE;
+        symbol [ Graphics %tmp.28 41 46 54 ];
+        %tmp.28 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.29 41 55 72 ];
+        %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
+        invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 42 12 ]
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 42 12 14 ];
+        symbol [ drawText %tmp.31 42 15 23 ];
+        %tmp.31 = getv function %tmp.30 :drawText;
+        %tmp.32 = lgetv %w.2;
+        symbol [ w %tmp.32 42 24 25 ];
+        %tmp.33 = 2;
+        %tmp.34 = div %tmp.32 %tmp.33;
+        %tmp.35 = lgetv %h.3;
+        symbol [ h %tmp.35 42 31 32 ];
+        %tmp.36 = 0.22;
+        %tmp.37 = mul %tmp.35 %tmp.36;
+        symbol [ Graphics %tmp.38 42 41 49 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.39 42 50 61 ];
+        %tmp.39 = getv %tmp.38 :FONT_MEDIUM;
+        %tmp.40 = "Game Over";
+        symbol [ Graphics %tmp.41 43 16 24 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.42 43 25 44 ];
+        %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.43 43 47 55 ];
+        %tmp.43 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.44 43 56 76 ];
+        %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_VCENTER;
+        %tmp.45 = bitor %tmp.42 %tmp.44;
+        invoke %tmp.30 %tmp.31(%tmp.34, %tmp.37, %tmp.39, %tmp.40, %tmp.45);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 44 12 ]
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 44 12 14 ];
+        symbol [ drawText %tmp.47 44 15 23 ];
+        %tmp.47 = getv function %tmp.46 :drawText;
+        %tmp.48 = lgetv %w.2;
+        symbol [ w %tmp.48 44 24 25 ];
+        %tmp.49 = 2;
+        %tmp.50 = div %tmp.48 %tmp.49;
+        %tmp.51 = lgetv %h.3;
+        symbol [ h %tmp.51 44 31 32 ];
+        %tmp.52 = 0.38;
+        %tmp.53 = mul %tmp.51 %tmp.52;
+        symbol [ Graphics %tmp.54 44 41 49 ];
+        %tmp.54 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.55 44 50 60 ];
+        %tmp.55 = getv %tmp.54 :FONT_SMALL;
+        %tmp.56 = "Score ";
+        %tmp.57 = lgetv %game.1;
+        symbol [ game %tmp.57 44 73 77 ];
+        symbol [ score %tmp.58 44 78 83 ];
+        %tmp.58 = getv %tmp.57 :score;
+        %tmp.59 = add %tmp.56 %tmp.58;
+        symbol [ Graphics %tmp.60 45 16 24 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.61 45 25 44 ];
+        %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.62 45 47 55 ];
+        %tmp.62 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.63 45 56 76 ];
+        %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_VCENTER;
+        %tmp.64 = bitor %tmp.61 %tmp.63;
+        invoke %tmp.46 %tmp.47(%tmp.50, %tmp.53, %tmp.55, %tmp.59, %tmp.64);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 46 12 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 46 12 14 ];
+        symbol [ drawText %tmp.66 46 15 23 ];
+        %tmp.66 = getv function %tmp.65 :drawText;
+        %tmp.67 = lgetv %w.2;
+        symbol [ w %tmp.67 46 24 25 ];
+        %tmp.68 = 2;
+        %tmp.69 = div %tmp.67 %tmp.68;
+        %tmp.70 = lgetv %h.3;
+        symbol [ h %tmp.70 46 31 32 ];
+        %tmp.71 = 0.48;
+        %tmp.72 = mul %tmp.70 %tmp.71;
+        symbol [ Graphics %tmp.73 46 41 49 ];
+        %tmp.73 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.74 46 50 60 ];
+        %tmp.74 = getv %tmp.73 :FONT_SMALL;
+        %tmp.75 = "Best ";
+        %tmp.76 = lgetv %game.1;
+        symbol [ game %tmp.76 46 72 76 ];
+        symbol [ highScore %tmp.77 46 77 86 ];
+        %tmp.77 = getv %tmp.76 :highScore;
+        %tmp.78 = add %tmp.75 %tmp.77;
+        symbol [ Graphics %tmp.79 47 16 24 ];
+        %tmp.79 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.80 47 25 44 ];
+        %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.81 47 47 55 ];
+        %tmp.81 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.82 47 56 76 ];
+        %tmp.82 = getv %tmp.81 :TEXT_JUSTIFY_VCENTER;
+        %tmp.83 = bitor %tmp.80 %tmp.82;
+        invoke %tmp.65 %tmp.66(%tmp.69, %tmp.72, %tmp.74, %tmp.78, %tmp.83);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 49 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_stop" ]
+        %buttonWidth.4 = local;
+        symbol [ buttonWidth %buttonWidth.4 49 16 27 ];
+        %tmp.84 = lgetv %w.2;
+        symbol [ w %tmp.84 49 30 31 ];
+        %tmp.85 = 0.58;
+        %tmp.86 = mul %tmp.84 %tmp.85;
+        lputv %buttonWidth.4 %tmp.86;
+        symbol [ buttonWidth %buttonWidth.4 49 16 27 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 50 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_stop" ]
+        %buttonHeight.5 = local;
+        symbol [ buttonHeight %buttonHeight.5 50 16 28 ];
+        %tmp.87 = lgetv %h.3;
+        symbol [ h %tmp.87 50 31 32 ];
+        %tmp.88 = 0.12;
+        %tmp.89 = mul %tmp.87 %tmp.88;
+        lputv %buttonHeight.5 %tmp.89;
+        symbol [ buttonHeight %buttonHeight.5 50 16 28 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 51 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_stop" ]
+        %buttonX.6 = local;
+        symbol [ buttonX %buttonX.6 51 16 23 ];
+        %tmp.90 = lgetv %w.2;
+        symbol [ w %tmp.90 51 27 28 ];
+        %tmp.91 = lgetv %buttonWidth.4;
+        symbol [ buttonWidth %tmp.91 51 31 42 ];
+        %tmp.92 = sub %tmp.90 %tmp.91;
+        %tmp.93 = 2;
+        %tmp.94 = div %tmp.92 %tmp.93;
+        lputv %buttonX.6 %tmp.94;
+        symbol [ buttonX %buttonX.6 51 16 23 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 52 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_stop" ]
+        %buttonY.7 = local;
+        symbol [ buttonY %buttonY.7 52 16 23 ];
+        %tmp.95 = lgetv %h.3;
+        symbol [ h %tmp.95 52 26 27 ];
+        %tmp.96 = 0.64;
+        %tmp.97 = mul %tmp.95 %tmp.96;
+        lputv %buttonY.7 %tmp.97;
+        symbol [ buttonY %buttonY.7 52 16 23 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 53 12 ]
+        %tmp.98 = lgetv %dc;
+        symbol [ dc %tmp.98 53 12 14 ];
+        symbol [ setColor %tmp.99 53 15 23 ];
+        %tmp.99 = getv function %tmp.98 :setColor;
+        %tmp.100 = 0xEDC22E;
+        symbol [ Graphics %tmp.101 53 34 42 ];
+        %tmp.101 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.102 53 43 60 ];
+        %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
+        invoke %tmp.98 %tmp.99(%tmp.100, %tmp.102);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 54 12 ]
+        %tmp.103 = lgetv %dc;
+        symbol [ dc %tmp.103 54 12 14 ];
+        symbol [ fillRoundedRectangle %tmp.104 54 15 35 ];
+        %tmp.104 = getv function %tmp.103 :fillRoundedRectangle;
+        %tmp.105 = lgetv %buttonX.6;
+        symbol [ buttonX %tmp.105 54 36 43 ];
+        %tmp.106 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.106 54 45 52 ];
+        %tmp.107 = lgetv %buttonWidth.4;
+        symbol [ buttonWidth %tmp.107 54 54 65 ];
+        %tmp.108 = lgetv %buttonHeight.5;
+        symbol [ buttonHeight %tmp.108 54 67 79 ];
+        %tmp.109 = 8;
+        invoke %tmp.103 %tmp.104(%tmp.105, %tmp.106, %tmp.107, %tmp.108, %tmp.109);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 55 12 ]
+        %tmp.110 = lgetv %dc;
+        symbol [ dc %tmp.110 55 12 14 ];
+        symbol [ setColor %tmp.111 55 15 23 ];
+        %tmp.111 = getv function %tmp.110 :setColor;
+        %tmp.112 = 0x3C3A32;
+        symbol [ Graphics %tmp.113 55 34 42 ];
+        %tmp.113 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.114 55 43 60 ];
+        %tmp.114 = getv %tmp.113 :COLOR_TRANSPARENT;
+        invoke %tmp.110 %tmp.111(%tmp.112, %tmp.114);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 56 12 ]
+        %tmp.115 = lgetv %dc;
+        symbol [ dc %tmp.115 56 12 14 ];
+        symbol [ drawText %tmp.116 56 15 23 ];
+        %tmp.116 = getv function %tmp.115 :drawText;
+        %tmp.117 = lgetv %w.2;
+        symbol [ w %tmp.117 56 24 25 ];
+        %tmp.118 = 2;
+        %tmp.119 = div %tmp.117 %tmp.118;
+        %tmp.120 = lgetv %buttonY.7;
+        symbol [ buttonY %tmp.120 56 31 38 ];
+        %tmp.121 = lgetv %buttonHeight.5;
+        symbol [ buttonHeight %tmp.121 56 41 53 ];
+        %tmp.122 = 2;
+        %tmp.123 = div %tmp.121 %tmp.122;
+        %tmp.124 = add %tmp.120 %tmp.123;
+        symbol [ Graphics %tmp.125 56 59 67 ];
+        %tmp.125 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.126 56 68 78 ];
+        %tmp.126 = getv %tmp.125 :FONT_SMALL;
+        %tmp.127 = "Restart";
+        symbol [ Graphics %tmp.128 57 16 24 ];
+        %tmp.128 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.129 57 25 44 ];
+        %tmp.129 = getv %tmp.128 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.130 57 47 55 ];
+        %tmp.130 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.131 57 56 76 ];
+        %tmp.131 = getv %tmp.130 :TEXT_JUSTIFY_VCENTER;
+        %tmp.132 = bitor %tmp.129 %tmp.131;
+        invoke %tmp.115 %tmp.116(%tmp.119, %tmp.124, %tmp.126, %tmp.127, %tmp.132);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 58 12 ]
+        ret ?;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_47_59_8_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_40_8_59_8_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 62 8 ]
+        %tmp.133 = lgetv %dc;
+        symbol [ dc %tmp.133 62 8 10 ];
+        symbol [ setColor %tmp.134 62 11 19 ];
+        %tmp.134 = getv function %tmp.133 :setColor;
+        symbol [ Graphics %tmp.135 62 20 28 ];
+        %tmp.135 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.136 62 29 40 ];
+        %tmp.136 = getv %tmp.135 :COLOR_WHITE;
+        symbol [ Graphics %tmp.137 62 42 50 ];
+        %tmp.137 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.138 62 51 68 ];
+        %tmp.138 = getv %tmp.137 :COLOR_TRANSPARENT;
+        invoke %tmp.133 %tmp.134(%tmp.136, %tmp.138);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 63 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_stmt:
+        %tmp.139 = lgetv %game.1;
+        symbol [ game %tmp.139 63 12 16 ];
+        symbol [ gameOver %tmp.140 63 17 25 ];
+        %tmp.140 = getv %tmp.139 :gameOver;
+        bf %tmp.140 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_27_68_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 64 12 ]
+        %tmp.141 = lgetv %dc;
+        symbol [ dc %tmp.141 64 12 14 ];
+        symbol [ drawText %tmp.142 64 15 23 ];
+        %tmp.142 = getv function %tmp.141 :drawText;
+        %tmp.143 = lgetv %w.2;
+        symbol [ w %tmp.143 64 24 25 ];
+        %tmp.144 = 2;
+        %tmp.145 = div %tmp.143 %tmp.144;
+        %tmp.146 = lgetv %h.3;
+        symbol [ h %tmp.146 64 31 32 ];
+        %tmp.147 = 0.055;
+        %tmp.148 = mul %tmp.146 %tmp.147;
+        symbol [ Graphics %tmp.149 64 42 50 ];
+        %tmp.149 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.150 64 51 61 ];
+        %tmp.150 = getv %tmp.149 :FONT_XTINY;
+        %tmp.151 = "Game Over";
+        symbol [ Graphics %tmp.152 65 16 24 ];
+        %tmp.152 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.153 65 25 44 ];
+        %tmp.153 = getv %tmp.152 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.141 %tmp.142(%tmp.145, %tmp.148, %tmp.150, %tmp.151, %tmp.153);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 66 12 ]
+        %tmp.154 = lgetv %dc;
+        symbol [ dc %tmp.154 66 12 14 ];
+        symbol [ drawText %tmp.155 66 15 23 ];
+        %tmp.155 = getv function %tmp.154 :drawText;
+        %tmp.156 = lgetv %w.2;
+        symbol [ w %tmp.156 66 24 25 ];
+        %tmp.157 = 2;
+        %tmp.158 = div %tmp.156 %tmp.157;
+        %tmp.159 = lgetv %h.3;
+        symbol [ h %tmp.159 66 31 32 ];
+        %tmp.160 = 0.105;
+        %tmp.161 = mul %tmp.159 %tmp.160;
+        symbol [ Graphics %tmp.162 66 42 50 ];
+        %tmp.162 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.163 66 51 61 ];
+        %tmp.163 = getv %tmp.162 :FONT_XTINY;
+        %tmp.164 = "Score ";
+        %tmp.165 = lgetv %game.1;
+        symbol [ game %tmp.165 66 74 78 ];
+        symbol [ score %tmp.166 66 79 84 ];
+        %tmp.166 = getv %tmp.165 :score;
+        %tmp.167 = add %tmp.164 %tmp.166;
+        symbol [ Graphics %tmp.168 67 16 24 ];
+        %tmp.168 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.169 67 25 44 ];
+        %tmp.169 = getv %tmp.168 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.154 %tmp.155(%tmp.158, %tmp.161, %tmp.163, %tmp.167, %tmp.169);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_27_68_8_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_else_false:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_68_15_71_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 69 12 ]
+        %tmp.170 = lgetv %dc;
+        symbol [ dc %tmp.170 69 12 14 ];
+        symbol [ drawText %tmp.171 69 15 23 ];
+        %tmp.171 = getv function %tmp.170 :drawText;
+        %tmp.172 = lgetv %w.2;
+        symbol [ w %tmp.172 69 24 25 ];
+        %tmp.173 = 2;
+        %tmp.174 = div %tmp.172 %tmp.173;
+        %tmp.175 = lgetv %h.3;
+        symbol [ h %tmp.175 69 31 32 ];
+        %tmp.176 = 0.08;
+        %tmp.177 = mul %tmp.175 %tmp.176;
+        symbol [ Graphics %tmp.178 69 41 49 ];
+        %tmp.178 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.179 69 50 60 ];
+        %tmp.179 = getv %tmp.178 :FONT_XTINY;
+        %tmp.180 = "Score ";
+        %tmp.181 = lgetv %game.1;
+        symbol [ game %tmp.181 69 73 77 ];
+        symbol [ score %tmp.182 69 78 83 ];
+        %tmp.182 = getv %tmp.181 :score;
+        %tmp.183 = add %tmp.180 %tmp.182;
+        symbol [ Graphics %tmp.184 70 16 24 ];
+        %tmp.184 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.185 70 25 44 ];
+        %tmp.185 = getv %tmp.184 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.170 %tmp.171(%tmp.174, %tmp.177, %tmp.179, %tmp.183, %tmp.185);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_68_15_71_8_stop:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_63_8_71_8_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 74 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %side.8 = local;
+        symbol [ side %side.8 74 12 16 ];
+        %tmp.186 = lgetv %w.2;
+        symbol [ w %tmp.186 74 20 21 ];
+        %tmp.187 = 0.68;
+        %tmp.188 = mul %tmp.186 %tmp.187;
+        symbol [ toNumber %tmp.189 74 30 38 ];
+        %tmp.189 = getv function %tmp.188 :toNumber;
+        %tmp.190 = invoke %tmp.188 %tmp.189();
+        lputv %side.8 %tmp.190;
+        symbol [ side %side.8 74 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 75 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %cell.9 = local;
+        symbol [ cell %cell.9 75 12 16 ];
+        %tmp.191 = lgetv %side.8;
+        symbol [ side %tmp.191 75 19 23 ];
+        %tmp.192 = 4;
+        %tmp.193 = div %tmp.191 %tmp.192;
+        lputv %cell.9 %tmp.193;
+        symbol [ cell %cell.9 75 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 76 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %left.10 = local;
+        symbol [ left %left.10 76 12 16 ];
+        %tmp.194 = lgetv %w.2;
+        symbol [ w %tmp.194 76 20 21 ];
+        %tmp.195 = lgetv %side.8;
+        symbol [ side %tmp.195 76 24 28 ];
+        %tmp.196 = sub %tmp.194 %tmp.195;
+        %tmp.197 = 2;
+        %tmp.198 = div %tmp.196 %tmp.197;
+        lputv %left.10 %tmp.198;
+        symbol [ left %left.10 76 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 77 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop" ]
+        %top.11 = local;
+        symbol [ top %top.11 77 12 15 ];
+        %tmp.199 = lgetv %h.3;
+        symbol [ h %tmp.199 77 19 20 ];
+        %tmp.200 = lgetv %side.8;
+        symbol [ side %tmp.200 77 23 27 ];
+        %tmp.201 = sub %tmp.199 %tmp.200;
+        %tmp.202 = 2;
+        %tmp.203 = div %tmp.201 %tmp.202;
+        %tmp.204 = lgetv %h.3;
+        symbol [ h %tmp.204 77 36 37 ];
+        %tmp.205 = 0.04;
+        %tmp.206 = mul %tmp.204 %tmp.205;
+        symbol [ toNumber %tmp.207 77 46 54 ];
+        %tmp.207 = getv function %tmp.206 :toNumber;
+        %tmp.208 = invoke %tmp.206 %tmp.207();
+        %tmp.209 = add %tmp.203 %tmp.208;
+        lputv %top.11 %tmp.209;
+        symbol [ top %top.11 77 12 15 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 79 8 ]
+        for @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_test @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_incr @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_init:
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_begin" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_end" ]
+        %r.12 = local;
+        symbol [ r %r.12 79 17 18 ];
+        %tmp.210 = 0;
+        lputv %r.12 %tmp.210;
+        symbol [ r %r.12 79 17 18 ];
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_test:
+        %tmp.211 = lgetv %r.12;
+        symbol [ r %tmp.211 79 24 25 ];
+        %tmp.212 = 4;
+        %tmp.213 = lt %tmp.211 %tmp.212;
+        bf %tmp.213 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_begin:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_36_93_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 80 12 ]
+        for @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_test @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_incr @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_init:
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_begin" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_end" ]
+        %c.13 = local;
+        symbol [ c %c.13 80 21 22 ];
+        %tmp.214 = 0;
+        lputv %c.13 %tmp.214;
+        symbol [ c %c.13 80 21 22 ];
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_test:
+        %tmp.215 = lgetv %c.13;
+        symbol [ c %tmp.215 80 28 29 ];
+        %tmp.216 = 4;
+        %tmp.217 = lt %tmp.215 %tmp.216;
+        bf %tmp.217 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_begin:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 81 16 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_stop" ]
+        %v.14 = local;
+        symbol [ v %v.14 81 20 21 ];
+        %tmp.218 = lgetv %game.1;
+        symbol [ game %tmp.218 81 24 28 ];
+        symbol [ board %tmp.219 81 29 34 ];
+        %tmp.219 = getv %tmp.218 :board;
+        %tmp.220 = lgetv %r.12;
+        symbol [ r %tmp.220 81 35 36 ];
+        %tmp.221 = agetv %tmp.219 %tmp.220;
+        %tmp.222 = lgetv %c.13;
+        symbol [ c %tmp.222 81 38 39 ];
+        %tmp.223 = agetv %tmp.221 %tmp.222;
+        lputv %v.14 %tmp.223;
+        symbol [ v %v.14 81 20 21 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 82 16 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_stop" ]
+        %x.15 = local;
+        symbol [ x %x.15 82 20 21 ];
+        %tmp.224 = lgetv %left.10;
+        symbol [ left %tmp.224 82 24 28 ];
+        %tmp.225 = lgetv %c.13;
+        symbol [ c %tmp.225 82 31 32 ];
+        %tmp.226 = lgetv %cell.9;
+        symbol [ cell %tmp.226 82 35 39 ];
+        %tmp.227 = mul %tmp.225 %tmp.226;
+        %tmp.228 = add %tmp.224 %tmp.227;
+        lputv %x.15 %tmp.228;
+        symbol [ x %x.15 82 20 21 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 83 16 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_stop" ]
+        %y.16 = local;
+        symbol [ y %y.16 83 20 21 ];
+        %tmp.229 = lgetv %top.11;
+        symbol [ top %tmp.229 83 24 27 ];
+        %tmp.230 = lgetv %r.12;
+        symbol [ r %tmp.230 83 30 31 ];
+        %tmp.231 = lgetv %cell.9;
+        symbol [ cell %tmp.231 83 34 38 ];
+        %tmp.232 = mul %tmp.230 %tmp.231;
+        %tmp.233 = add %tmp.229 %tmp.232;
+        lputv %y.16 %tmp.233;
+        symbol [ y %y.16 83 20 21 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 84 16 ]
+        %tmp.234 = lgetv %dc;
+        symbol [ dc %tmp.234 84 16 18 ];
+        symbol [ setColor %tmp.235 84 19 27 ];
+        %tmp.235 = getv function %tmp.234 :setColor;
+        %tmp.236 = self;
+        symbol [ tileColor %tmp.237 84 28 37 ];
+        %tmp.237 = getv function %tmp.236 :tileColor;
+        %tmp.238 = lgetv %v.14;
+        symbol [ v %tmp.238 84 38 39 ];
+        %tmp.239 = invoke %tmp.236 %tmp.237(%tmp.238);
+        symbol [ Graphics %tmp.240 84 42 50 ];
+        %tmp.240 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.241 84 51 68 ];
+        %tmp.241 = getv %tmp.240 :COLOR_TRANSPARENT;
+        invoke %tmp.234 %tmp.235(%tmp.239, %tmp.241);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 85 16 ]
+        %tmp.242 = lgetv %dc;
+        symbol [ dc %tmp.242 85 16 18 ];
+        symbol [ fillRoundedRectangle %tmp.243 85 19 39 ];
+        %tmp.243 = getv function %tmp.242 :fillRoundedRectangle;
+        %tmp.244 = lgetv %x.15;
+        symbol [ x %tmp.244 85 40 41 ];
+        %tmp.245 = 2;
+        %tmp.246 = add %tmp.244 %tmp.245;
+        %tmp.247 = lgetv %y.16;
+        symbol [ y %tmp.247 85 47 48 ];
+        %tmp.248 = 2;
+        %tmp.249 = add %tmp.247 %tmp.248;
+        %tmp.250 = lgetv %cell.9;
+        symbol [ cell %tmp.250 85 54 58 ];
+        %tmp.251 = 4;
+        %tmp.252 = sub %tmp.250 %tmp.251;
+        %tmp.253 = lgetv %cell.9;
+        symbol [ cell %tmp.253 85 64 68 ];
+        %tmp.254 = 4;
+        %tmp.255 = sub %tmp.253 %tmp.254;
+        %tmp.256 = 6;
+        invoke %tmp.242 %tmp.243(%tmp.246, %tmp.249, %tmp.252, %tmp.255, %tmp.256);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 86 16 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_16_91_16_if_stmt:
+        %tmp.257 = lgetv %v.14;
+        symbol [ v %tmp.257 86 20 21 ];
+        %tmp.258 = 0;
+        %tmp.259 = ne %tmp.257 %tmp.258;
+        bf %tmp.259 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_16_91_16_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_16_91_16_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_28_91_16_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 87 20 ]
+        %tmp.260 = lgetv %dc;
+        symbol [ dc %tmp.260 87 20 22 ];
+        symbol [ setColor %tmp.261 87 23 31 ];
+        %tmp.261 = getv function %tmp.260 :setColor;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_begin:
+        %tmp.262 = lgetv %v.14;
+        symbol [ v %tmp.262 87 32 33 ];
+        %tmp.263 = 4;
+        %tmp.264 = lte %tmp.262 %tmp.263;
+        bf %tmp.264 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_true:
+        %tmp.265 = 0x776E65;
+        push %tmp.265;
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_else_false:
+        symbol [ Graphics %tmp.266 87 52 60 ];
+        %tmp.266 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.267 87 61 72 ];
+        %tmp.267 = getv %tmp.266 :COLOR_WHITE;
+        push %tmp.267;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_end:
+        %tmp.268 = phi [%tmp.264 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_begin] [%tmp.265 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_true] [%tmp.267 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_else_false] [%tmp.268 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_87_32_87_61_end];
+        symbol [ Graphics %tmp.269 88 24 32 ];
+        %tmp.269 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.270 88 33 50 ];
+        %tmp.270 = getv %tmp.269 :COLOR_TRANSPARENT;
+        invoke %tmp.260 %tmp.261(%tmp.268, %tmp.270);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 89 20 ]
+        %tmp.271 = lgetv %dc;
+        symbol [ dc %tmp.271 89 20 22 ];
+        symbol [ drawText %tmp.272 89 23 31 ];
+        %tmp.272 = getv function %tmp.271 :drawText;
+        %tmp.273 = lgetv %x.15;
+        symbol [ x %tmp.273 89 32 33 ];
+        %tmp.274 = lgetv %cell.9;
+        symbol [ cell %tmp.274 89 36 40 ];
+        %tmp.275 = 2;
+        %tmp.276 = div %tmp.274 %tmp.275;
+        %tmp.277 = add %tmp.273 %tmp.276;
+        %tmp.278 = lgetv %y.16;
+        symbol [ y %tmp.278 89 46 47 ];
+        %tmp.279 = lgetv %cell.9;
+        symbol [ cell %tmp.279 89 50 54 ];
+        %tmp.280 = 2;
+        %tmp.281 = div %tmp.279 %tmp.280;
+        %tmp.282 = add %tmp.278 %tmp.281;
+        symbol [ Graphics %tmp.283 89 60 68 ];
+        %tmp.283 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.284 89 69 79 ];
+        %tmp.284 = getv %tmp.283 :FONT_XTINY;
+        %tmp.285 = lgetv %v.14;
+        symbol [ v %tmp.285 89 81 82 ];
+        symbol [ toString %tmp.286 89 83 91 ];
+        %tmp.286 = getv function %tmp.285 :toString;
+        %tmp.287 = invoke %tmp.285 %tmp.286();
+        symbol [ Graphics %tmp.288 90 24 32 ];
+        %tmp.288 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.289 90 33 52 ];
+        %tmp.289 = getv %tmp.288 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.290 90 55 63 ];
+        %tmp.290 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.291 90 64 84 ];
+        %tmp.291 = getv %tmp.290 :TEXT_JUSTIFY_VCENTER;
+        %tmp.292 = bitor %tmp.289 %tmp.291;
+        invoke %tmp.271 %tmp.272(%tmp.277, %tmp.282, %tmp.284, %tmp.287, %tmp.292);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_28_91_16_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_16_91_16_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_86_16_91_16_if_end:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_40_92_12_stop:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_incr:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 80 ]
+        %tmp.295 = lgetv %c.13;
+        symbol [ c %tmp.295 80 35 36 ];
+        %tmp.296 = add %tmp.295 1;
+        lputv %c.13 %tmp.296;
+        symbol [ c %c.13 80 35 36 ];
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_test;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_80_12_92_12_for_end:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_36_93_8_stop:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_incr:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 79 ]
+        %tmp.299 = lgetv %r.12;
+        symbol [ r %tmp.299 79 31 32 ];
+        %tmp.300 = add %tmp.299 1;
+        lputv %r.12 %tmp.300;
+        symbol [ r %r.12 79 31 32 ];
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_test;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_79_8_93_8_for_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 95 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_8_99_8_if_stmt:
+        %tmp.301 = lgetv %game.1;
+        symbol [ game %tmp.301 95 12 16 ];
+        symbol [ gameOver %tmp.302 95 17 25 ];
+        %tmp.302 = getv %tmp.301 :gameOver;
+        bf %tmp.302 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_8_99_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_8_99_8_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_27_99_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 96 12 ]
+        %tmp.303 = lgetv %dc;
+        symbol [ dc %tmp.303 96 12 14 ];
+        symbol [ setColor %tmp.304 96 15 23 ];
+        %tmp.304 = getv function %tmp.303 :setColor;
+        symbol [ Graphics %tmp.305 96 24 32 ];
+        %tmp.305 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.306 96 33 44 ];
+        %tmp.306 = getv %tmp.305 :COLOR_WHITE;
+        symbol [ Graphics %tmp.307 96 46 54 ];
+        %tmp.307 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.308 96 55 72 ];
+        %tmp.308 = getv %tmp.307 :COLOR_TRANSPARENT;
+        invoke %tmp.303 %tmp.304(%tmp.306, %tmp.308);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc" 97 12 ]
+        %tmp.309 = lgetv %dc;
+        symbol [ dc %tmp.309 97 12 14 ];
+        symbol [ drawText %tmp.310 97 15 23 ];
+        %tmp.310 = getv function %tmp.309 :drawText;
+        %tmp.311 = lgetv %w.2;
+        symbol [ w %tmp.311 97 24 25 ];
+        %tmp.312 = 2;
+        %tmp.313 = div %tmp.311 %tmp.312;
+        %tmp.314 = lgetv %h.3;
+        symbol [ h %tmp.314 97 31 32 ];
+        %tmp.315 = 0.9;
+        %tmp.316 = mul %tmp.314 %tmp.315;
+        symbol [ Graphics %tmp.317 97 40 48 ];
+        %tmp.317 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.318 97 49 59 ];
+        %tmp.318 = getv %tmp.317 :FONT_XTINY;
+        %tmp.319 = "Tap to continue";
+        symbol [ Graphics %tmp.320 98 16 24 ];
+        %tmp.320 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.321 98 25 44 ];
+        %tmp.321 = getv %tmp.320 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.322 98 47 55 ];
+        %tmp.322 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.323 98 56 76 ];
+        %tmp.323 = getv %tmp.322 :TEXT_JUSTIFY_VCENTER;
+        %tmp.324 = bitor %tmp.321 %tmp.323;
+        invoke %tmp.309 %tmp.310(%tmp.313, %tmp.316, %tmp.318, %tmp.319, %tmp.324);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_27_99_8_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_8_99_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_95_8_99_8_if_end:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048View_mc_32_26_101_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 106; @symbol_functiondef = [onHide,106,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048View.mc"; @line = 1; ]
+<init> {
+}

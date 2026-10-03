@@ -1,0 +1,441 @@
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Application,4,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 7; @symbol_classdef = [Garmin_2048Delegate,7,6,25]; @symbol_extends<0> = [WatchUi,7,34,41]; @symbol_extends<1> = [BehaviorDelegate,7,42,58]; ]
+class Garmin_2048Delegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_9_26_11_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 10 8 ]
+        symbol [ BehaviorDelegate %tmp.2 10 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 10 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_9_26_11_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 13; @symbol_functiondef = [doMove,13,13,19]; @symbol_param<0> = [dir,13,20,23]; ]
+    function doMove(dir) {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_13_25_18_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 14 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_13_25_18_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_13_25_18_4_stop" ]
+        %game.1 = local;
+        symbol [ game %game.1 14 12 16 ];
+        symbol [ Application %tmp.1 14 19 30 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 14 31 37 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ game %tmp.4 14 40 44 ];
+        %tmp.4 = getv %tmp.3 :game;
+        lputv %game.1 %tmp.4;
+        symbol [ game %game.1 14 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 15 8 ]
+        %tmp.5 = lgetv %game.1;
+        symbol [ game %tmp.5 15 8 12 ];
+        symbol [ move %tmp.6 15 13 17 ];
+        %tmp.6 = getv function %tmp.5 :move;
+        %tmp.7 = lgetv %dir;
+        symbol [ dir %tmp.7 15 18 21 ];
+        invoke %tmp.5 %tmp.6(%tmp.7);
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 16 8 ]
+        %tmp.8 = lgetv %game.1;
+        symbol [ game %tmp.8 16 8 12 ];
+        symbol [ save %tmp.9 16 13 17 ];
+        %tmp.9 = getv function %tmp.8 :save;
+        invoke %tmp.8 %tmp.9();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 17 8 ]
+        symbol [ WatchUi %tmp.10 17 8 15 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.11 17 16 29 ];
+        %tmp.11 = getv function %tmp.10 :requestUpdate;
+        invoke %tmp.10 %tmp.11();
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_13_25_18_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 20; @symbol_functiondef = [onSwipe,20,13,20]; @symbol_param<0> = [evt,20,21,24]; ]
+    function onSwipe(evt) {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_20_26_22_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 21 8 ]
+        %tmp.1 = true;
+        ret %tmp.1;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_20_26_22_4_stop:
+    }
+    [ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 24; @symbol_functiondef = [onTap,24,13,18]; @symbol_param<0> = [evt,24,19,22]; ]
+    function onTap(evt) {
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 25 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop" ]
+        %game.1 = local;
+        symbol [ game %game.1 25 12 16 ];
+        symbol [ Application %tmp.1 25 19 30 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 25 31 37 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ game %tmp.4 25 40 44 ];
+        %tmp.4 = getv %tmp.3 :game;
+        lputv %game.1 %tmp.4;
+        symbol [ game %game.1 25 12 16 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 26 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_8_48_8_if_stmt:
+        %tmp.5 = lgetv %game.1;
+        symbol [ game %tmp.5 26 12 16 ];
+        symbol [ gameOver %tmp.6 26 17 25 ];
+        %tmp.6 = getv %tmp.5 :gameOver;
+        bf %tmp.6 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_8_48_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_8_48_8_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 27 12 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_12_32_12_if_stmt:
+        %tmp.7 = lgetv %game.1;
+        symbol [ game %tmp.7 27 17 21 ];
+        symbol [ showResults %tmp.8 27 22 33 ];
+        %tmp.8 = getv %tmp.7 :showResults;
+        %tmp.9 = not %tmp.8;
+        bf %tmp.9 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_12_32_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_12_32_12_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_35_32_12_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 28 16 ]
+        %tmp.10 = lgetv %game.1;
+        symbol [ game %tmp.10 28 16 20 ];
+        %tmp.11 = true;
+        symbol [ showResults ? 28 21 32 ];
+        putv %tmp.10 :showResults %tmp.11;
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 29 16 ]
+        %tmp.12 = lgetv %game.1;
+        symbol [ game %tmp.12 29 16 20 ];
+        symbol [ save %tmp.13 29 21 25 ];
+        %tmp.13 = getv function %tmp.12 :save;
+        invoke %tmp.12 %tmp.13();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 30 16 ]
+        symbol [ WatchUi %tmp.14 30 16 23 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.15 30 24 37 ];
+        %tmp.15 = getv function %tmp.14 :requestUpdate;
+        invoke %tmp.14 %tmp.15();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 31 16 ]
+        %tmp.16 = true;
+        ret %tmp.16;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_35_32_12_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_12_32_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_27_12_32_12_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 33 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %coords.2 = local;
+        symbol [ coords %coords.2 33 16 22 ];
+        %tmp.17 = lgetv %evt;
+        symbol [ evt %tmp.17 33 25 28 ];
+        symbol [ getCoordinates %tmp.18 33 29 43 ];
+        %tmp.18 = getv function %tmp.17 :getCoordinates;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        lputv %coords.2 %tmp.19;
+        symbol [ coords %coords.2 33 16 22 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 34 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %settings.3 = local;
+        symbol [ settings %settings.3 34 16 24 ];
+        symbol [ System %tmp.20 34 27 33 ];
+        %tmp.20 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.21 34 34 51 ];
+        %tmp.21 = getv function %tmp.20 :getDeviceSettings;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %settings.3 %tmp.22;
+        symbol [ settings %settings.3 34 16 24 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 35 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %w.4 = local;
+        symbol [ w %w.4 35 16 17 ];
+        %tmp.23 = lgetv %settings.3;
+        symbol [ settings %tmp.23 35 20 28 ];
+        symbol [ screenWidth %tmp.24 35 29 40 ];
+        %tmp.24 = getv %tmp.23 :screenWidth;
+        lputv %w.4 %tmp.24;
+        symbol [ w %w.4 35 16 17 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 36 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %h.5 = local;
+        symbol [ h %h.5 36 16 17 ];
+        %tmp.25 = lgetv %settings.3;
+        symbol [ settings %tmp.25 36 20 28 ];
+        symbol [ screenHeight %tmp.26 36 29 41 ];
+        %tmp.26 = getv %tmp.25 :screenHeight;
+        lputv %h.5 %tmp.26;
+        symbol [ h %h.5 36 16 17 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 37 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %buttonWidth.6 = local;
+        symbol [ buttonWidth %buttonWidth.6 37 16 27 ];
+        %tmp.27 = lgetv %w.4;
+        symbol [ w %tmp.27 37 30 31 ];
+        %tmp.28 = 0.58;
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        lputv %buttonWidth.6 %tmp.29;
+        symbol [ buttonWidth %buttonWidth.6 37 16 27 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 38 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %buttonHeight.7 = local;
+        symbol [ buttonHeight %buttonHeight.7 38 16 28 ];
+        %tmp.30 = lgetv %h.5;
+        symbol [ h %tmp.30 38 31 32 ];
+        %tmp.31 = 0.12;
+        %tmp.32 = mul %tmp.30 %tmp.31;
+        lputv %buttonHeight.7 %tmp.32;
+        symbol [ buttonHeight %buttonHeight.7 38 16 28 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 39 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %buttonX.8 = local;
+        symbol [ buttonX %buttonX.8 39 16 23 ];
+        %tmp.33 = lgetv %w.4;
+        symbol [ w %tmp.33 39 27 28 ];
+        %tmp.34 = lgetv %buttonWidth.6;
+        symbol [ buttonWidth %tmp.34 39 31 42 ];
+        %tmp.35 = sub %tmp.33 %tmp.34;
+        %tmp.36 = 2;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        lputv %buttonX.8 %tmp.37;
+        symbol [ buttonX %buttonX.8 39 16 23 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 40 12 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop" ]
+        %buttonY.9 = local;
+        symbol [ buttonY %buttonY.9 40 16 23 ];
+        %tmp.38 = lgetv %h.5;
+        symbol [ h %tmp.38 40 26 27 ];
+        %tmp.39 = 0.64;
+        %tmp.40 = mul %tmp.38 %tmp.39;
+        lputv %buttonY.9 %tmp.40;
+        symbol [ buttonY %buttonY.9 40 16 23 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 41 12 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_stmt:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_42_63_begin:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_42_29_begin:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_41_63_begin:
+        %tmp.41 = lgetv %coords.2;
+        symbol [ coords %tmp.41 41 16 22 ];
+        %tmp.42 = 0;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.44 = lgetv %buttonX.8;
+        symbol [ buttonX %tmp.44 41 29 36 ];
+        %tmp.45 = gte %tmp.43 %tmp.44;
+        bf %tmp.45 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_40_41_63_true:
+        %tmp.46 = lgetv %coords.2;
+        symbol [ coords %tmp.46 41 40 46 ];
+        %tmp.47 = 0;
+        %tmp.48 = agetv %tmp.46 %tmp.47;
+        %tmp.49 = lgetv %buttonX.8;
+        symbol [ buttonX %tmp.49 41 53 60 ];
+        %tmp.50 = lgetv %buttonWidth.6;
+        symbol [ buttonWidth %tmp.50 41 63 74 ];
+        %tmp.51 = add %tmp.49 %tmp.50;
+        %tmp.52 = lte %tmp.48 %tmp.51;
+        push %tmp.52;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_40_41_63_end:
+        %tmp.53 = phi [%tmp.45 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_41_63_begin] [%tmp.52 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_40_41_63_true] [%tmp.53 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_40_41_63_end];
+        bf %tmp.53 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_16_42_29_true:
+        %tmp.54 = lgetv %coords.2;
+        symbol [ coords %tmp.54 42 16 22 ];
+        %tmp.55 = 1;
+        %tmp.56 = agetv %tmp.54 %tmp.55;
+        %tmp.57 = lgetv %buttonY.9;
+        symbol [ buttonY %tmp.57 42 29 36 ];
+        %tmp.58 = gte %tmp.56 %tmp.57;
+        push %tmp.58;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_16_42_29_end:
+        %tmp.59 = phi [%tmp.53 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_42_29_begin] [%tmp.58 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_16_42_29_true] [%tmp.59 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_16_42_29_end];
+        bf %tmp.59 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_40_42_63_true:
+        %tmp.60 = lgetv %coords.2;
+        symbol [ coords %tmp.60 42 40 46 ];
+        %tmp.61 = 1;
+        %tmp.62 = agetv %tmp.60 %tmp.61;
+        %tmp.63 = lgetv %buttonY.9;
+        symbol [ buttonY %tmp.63 42 53 60 ];
+        %tmp.64 = lgetv %buttonHeight.7;
+        symbol [ buttonHeight %tmp.64 42 63 75 ];
+        %tmp.65 = add %tmp.63 %tmp.64;
+        %tmp.66 = lte %tmp.62 %tmp.65;
+        push %tmp.66;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_40_42_63_end:
+        %tmp.67 = phi [%tmp.59 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_16_42_63_begin] [%tmp.66 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_40_42_63_true] [%tmp.67 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_40_42_63_end];
+        bf %tmp.67 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_77_46_12_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 43 16 ]
+        %tmp.68 = lgetv %game.1;
+        symbol [ game %tmp.68 43 16 20 ];
+        symbol [ restart %tmp.69 43 21 28 ];
+        %tmp.69 = getv function %tmp.68 :restart;
+        invoke %tmp.68 %tmp.69();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 44 16 ]
+        %tmp.70 = lgetv %game.1;
+        symbol [ game %tmp.70 44 16 20 ];
+        symbol [ save %tmp.71 44 21 25 ];
+        %tmp.71 = getv function %tmp.70 :save;
+        invoke %tmp.70 %tmp.71();
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 45 16 ]
+        symbol [ WatchUi %tmp.72 45 16 23 ];
+        %tmp.72 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.73 45 24 37 ];
+        %tmp.73 = getv function %tmp.72 :requestUpdate;
+        invoke %tmp.72 %tmp.73();
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_42_77_46_12_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_41_12_46_12_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 47 12 ]
+        %tmp.74 = true;
+        ret %tmp.74;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_27_48_8_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_8_48_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_26_8_48_8_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 49 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop" ]
+        %coords.10 = local;
+        symbol [ coords %coords.10 49 12 18 ];
+        %tmp.75 = lgetv %evt;
+        symbol [ evt %tmp.75 49 21 24 ];
+        symbol [ getCoordinates %tmp.76 49 25 39 ];
+        %tmp.76 = getv function %tmp.75 :getCoordinates;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        lputv %coords.10 %tmp.77;
+        symbol [ coords %coords.10 49 12 18 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 50 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop" ]
+        %settings.11 = local;
+        symbol [ settings %settings.11 50 12 20 ];
+        symbol [ System %tmp.78 50 23 29 ];
+        %tmp.78 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.79 50 30 47 ];
+        %tmp.79 = getv function %tmp.78 :getDeviceSettings;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        lputv %settings.11 %tmp.80;
+        symbol [ settings %settings.11 50 12 20 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 51 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop" ]
+        %dx.12 = local;
+        symbol [ dx %dx.12 51 12 14 ];
+        %tmp.81 = lgetv %coords.10;
+        symbol [ coords %tmp.81 51 17 23 ];
+        %tmp.82 = 0;
+        %tmp.83 = agetv %tmp.81 %tmp.82;
+        %tmp.84 = lgetv %settings.11;
+        symbol [ settings %tmp.84 51 29 37 ];
+        symbol [ screenWidth %tmp.85 51 38 49 ];
+        %tmp.85 = getv %tmp.84 :screenWidth;
+        %tmp.86 = 2;
+        %tmp.87 = div %tmp.85 %tmp.86;
+        %tmp.88 = sub %tmp.83 %tmp.87;
+        lputv %dx.12 %tmp.88;
+        symbol [ dx %dx.12 51 12 14 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 52 8 ]
+        [ "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_start" "C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop" ]
+        %dy.13 = local;
+        symbol [ dy %dy.13 52 12 14 ];
+        %tmp.89 = lgetv %coords.10;
+        symbol [ coords %tmp.89 52 17 23 ];
+        %tmp.90 = 1;
+        %tmp.91 = agetv %tmp.89 %tmp.90;
+        %tmp.92 = lgetv %settings.11;
+        symbol [ settings %tmp.92 52 29 37 ];
+        symbol [ screenHeight %tmp.93 52 38 50 ];
+        %tmp.93 = getv %tmp.92 :screenHeight;
+        %tmp.94 = 2;
+        %tmp.95 = div %tmp.93 %tmp.94;
+        %tmp.96 = sub %tmp.91 %tmp.95;
+        lputv %dy.13 %tmp.96;
+        symbol [ dy %dy.13 52 12 14 ];
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 54 8 ]
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_stmt:
+        %tmp.97 = lgetv %dx.12;
+        symbol [ dx %tmp.97 54 12 14 ];
+        symbol [ abs %tmp.98 54 15 18 ];
+        %tmp.98 = getv function %tmp.97 :abs;
+        %tmp.99 = invoke %tmp.97 %tmp.98();
+        %tmp.100 = lgetv %dy.13;
+        symbol [ dy %tmp.100 54 23 25 ];
+        symbol [ abs %tmp.101 54 26 29 ];
+        %tmp.101 = getv function %tmp.100 :abs;
+        %tmp.102 = invoke %tmp.100 %tmp.101();
+        %tmp.103 = gt %tmp.99 %tmp.102;
+        bf %tmp.103 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_true:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_33_56_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 55 12 ]
+        %tmp.104 = self;
+        symbol [ doMove %tmp.105 55 12 18 ];
+        %tmp.105 = getv function %tmp.104 :doMove;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_begin:
+        %tmp.106 = lgetv %dx.12;
+        symbol [ dx %tmp.106 55 19 21 ];
+        %tmp.107 = 0;
+        %tmp.108 = lt %tmp.106 %tmp.107;
+        bf %tmp.108 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_true:
+        symbol [ Game2048 %tmp.110 55 28 36 ];
+        %tmp.110 = getv ? :Game2048;
+        symbol [ LEFT %tmp.111 55 37 41 ];
+        %tmp.111 = getv %tmp.110 :LEFT;
+        push %tmp.111;
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_else_false:
+        symbol [ Game2048 %tmp.113 55 44 52 ];
+        %tmp.113 = getv ? :Game2048;
+        symbol [ RIGHT %tmp.114 55 53 58 ];
+        %tmp.114 = getv %tmp.113 :RIGHT;
+        push %tmp.114;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_end:
+        %tmp.115 = phi [%tmp.108 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_begin] [%tmp.111 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_true] [%tmp.114 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_else_false] [%tmp.115 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_55_19_55_53_end];
+        invoke %tmp.104 %tmp.105(%tmp.115);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_33_56_8_stop:
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_else_false:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_56_15_58_8_start:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 57 12 ]
+        %tmp.116 = self;
+        symbol [ doMove %tmp.117 57 12 18 ];
+        %tmp.117 = getv function %tmp.116 :doMove;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_begin:
+        %tmp.118 = lgetv %dy.13;
+        symbol [ dy %tmp.118 57 19 21 ];
+        %tmp.119 = 0;
+        %tmp.120 = lt %tmp.118 %tmp.119;
+        bf %tmp.120 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_else_false;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_true:
+        symbol [ Game2048 %tmp.122 57 28 36 ];
+        %tmp.122 = getv ? :Game2048;
+        symbol [ UP %tmp.123 57 37 39 ];
+        %tmp.123 = getv %tmp.122 :UP;
+        push %tmp.123;
+        goto @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_end;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_else_false:
+        symbol [ Game2048 %tmp.125 57 42 50 ];
+        %tmp.125 = getv ? :Game2048;
+        symbol [ DOWN %tmp.126 57 51 55 ];
+        %tmp.126 = getv %tmp.125 :DOWN;
+        push %tmp.126;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_end:
+        %tmp.127 = phi [%tmp.120 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_begin] [%tmp.123 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_true] [%tmp.126 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_else_false] [%tmp.127 @C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_57_19_57_51_end];
+        invoke %tmp.116 %tmp.117(%tmp.127);
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_56_15_58_8_stop:
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_54_8_58_8_if_end:
+[ "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc" 59 8 ]
+        %tmp.128 = true;
+        ret %tmp.128;
+C__code_Garmin_2048_Garmin_2048_source_Garmin_2048Delegate_mc_24_24_60_4_stop:
+    }
+}
+[ @file = "C:\code\Garmin_2048\Garmin_2048\source\Garmin_2048Delegate.mc"; @line = 1; ]
+<init> {
+}
